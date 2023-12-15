@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="provided.HashTrieMapTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-11-15T04:28:26" hostname="ShengyuedeMacBook-Air.local" time="0.891">
+  <properties/>
+  <testcase name="test_finds_nullKey_throwsException()" classname="provided.HashTrieMapTests" time="0.026"/>
+  <testcase name="test_insert_nullKey_throwsException()" classname="provided.HashTrieMapTests" time="0.002"/>
+  <testcase name="test_finds_nonexistentKey_doesNotCrash()" classname="provided.HashTrieMapTests" time="0.004"/>
+  <testcase name="test_insert_nullValue_throwsException()" classname="provided.HashTrieMapTests" time="0.001"/>
+  <testcase name="test_insert_fewElements_correctInternalStructure()" classname="provided.HashTrieMapTests" time="0.002"/>
+  <testcase name="test_findPrefix_fewElements_correctStructure()" classname="provided.HashTrieMapTests" time="0.001"/>
+  <testcase name="test_insert_fewElements_valueReplaced()" classname="provided.HashTrieMapTests" time="0.002"/>
+  <testcase name="test_insertFindFindPrefix_fewElements_correctStructure()" classname="provided.HashTrieMapTests" time="0.026"/>
+  <testcase name="test_insertFindFindPrefix_manyElements_correctStructure()" classname="provided.HashTrieMapTests" time="0.765"/>
+  <testcase name="test_clear_oneElement_throwsException()" classname="provided.HashTrieMapTests" time="0.018"/>
+  <testcase name="test_findPrefix_nullKey_throwsException()" classname="provided.HashTrieMapTests" time="0.005"/>
+  <testcase name="test_delete_oneElement_throwsException()" classname="provided.HashTrieMapTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
